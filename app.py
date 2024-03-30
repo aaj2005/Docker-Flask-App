@@ -9,10 +9,6 @@ from scipy import misc
 #something
 app = Flask(__name__)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f897735 (something)
 CORS(app)
 
 import base64
@@ -67,11 +63,3 @@ def imageProcess():
 
 if __name__ == "__main__":
     app.run(port=2223)
-<<<<<<< HEAD
-=======
-=======
-@app.route("/")
-def hello():
-	return "Hello world!"
->>>>>>> parent of c40facc (updated .py file)
->>>>>>> f897735 (something)
