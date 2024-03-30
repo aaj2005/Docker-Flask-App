@@ -6,8 +6,13 @@ name = "pypi"
 [packages]
 flask = "*"
 gunicorn = "*"
+flask-cors = "*"
+opencv-python = "*"
+numpy = "*"
+scipy = "*"
+pillow = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "2.7"
+python_version = "3.9"

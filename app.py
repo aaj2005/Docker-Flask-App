@@ -1,8 +1,14 @@
-from flask import Flask
+from flask import Flask, request
+from flask_cors import CORS, cross_origin
 
+import cv2
+import base64
+import numpy as np
+from scipy import misc
+
+#something
 app = Flask(__name__)
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -69,8 +75,3 @@ def hello():
 	return "Hello world!"
 >>>>>>> parent of c40facc (updated .py file)
 >>>>>>> f897735 (something)
-=======
-@app.route("/")
-def hello():
-	return "Hello world!"
->>>>>>> a604540 (Revert "something")
